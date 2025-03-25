@@ -25,10 +25,11 @@ body {
 
   display: flex;
   flex-direction: column;
-  width: 480px;
   max-width: 100%;
   margin: 60px auto;
   min-width: 300px;
+  width: 480px;
+
   align-items: center;
 }
 h2 {

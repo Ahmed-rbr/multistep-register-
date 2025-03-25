@@ -26,54 +26,47 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+- [What I learned](#what-i-learned)
+- [Useful resources](#useful-resources)
 - [Built with](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-<!-- OVERVIEW -->
-
-## Overview
-
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+I learned the baisecs of handling user input and using some ES6 features.
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+MDN officiel site.
 
 ### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Js
+-
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+-A multi-step registration page that matches the given design.
+
+-HTML structure for the form, inputs, buttons, stepper, etc.
+-Validations for the inputs: name and email input should be required and email input should only accept email format.
+
+-Users should not be able to continue to the next step if inputs are empty or the topic is not selected.
+
+Users can continue to the next step if inputs are filled or topic is selected.
+
+Users should know which step they are at.
+
+When users click confirm, they should see an alert with '✅ Success' message.
+The page should be responsive on different screen sizes
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@Ahmed-rbr](https://{github.com/Ahmed=rbr})

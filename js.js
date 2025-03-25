@@ -75,12 +75,25 @@ const showRst = () => {
 
 next2.addEventListener("click", showRst);
 next3.addEventListener("click", () => {
-  obj = {
-    name: "",
-    email: "",
-    topics: [],
-  };
-  step2.classList.add("hidden");
-  step3.classList.add("hidden");
-  step1.classList.remove("hidden");
+  const ok = confirm("Done. Registered!");
+
+  if (ok) {
+    obj = {
+      name: "",
+      email: "",
+      topics: [],
+    };
+    document.querySelectorAll("input").forEach((inp) => {
+      inp.value = "";
+    });
+    topic.forEach((topc) => {
+      topc.style.background = "#212936";
+    });
+
+    step3.classList.add("hidden");
+    step1.classList.remove("hidden");
+    ul.innerHTML = ``;
+  } else {
+    console.log("The user cancel ");
+  }
 });
