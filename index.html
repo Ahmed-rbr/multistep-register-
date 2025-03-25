@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Multi-step Register Form | devChallenges.io</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper stp2">
+      <form action="#">
+        <h2>Which topics you are interested in?</h2>
+        <button class="inp topic">Software Development</button>
+        <button class="inp topic">User Experience</button>
+        <button class="inp topic">Graphic Design</button>
+
+        <button class="continue">Continue</button>
+      </form>
+
+      <div class="steps">
+        <p>step <span class="step">2</span> of 3</p>
+        <div class="spns">
+          <div class="spn"></div>
+          <div class="spn activ"></div>
+          <div class="spn"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper stp1">
+      <form action="#">
+        <h2>Register</h2>
+        <span class="err"></span>
+        <label for="name">
+          Name
+          <input
+            type="text"
+            placeholder="    Enter your name
+"
+            class="name"
+            name="name"
+          />
+        </label>
+        <label for="Email">
+          Email
+          <input
+            type="email"
+            placeholder="    Example@gmail.com
+"
+            name="email"
+            class="email"
+          />
+        </label>
+        <button class="continue">Continue</button>
+      </form>
+
+      <div class="steps">
+        <p>step <span class="step">1</span> of 3</p>
+        <div class="spns">
+          <div class="spn activ"></div>
+          <div class="spn"></div>
+          <div class="spn"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper stp3">
+      <form action="#">
+        <h2>Summary</h2>
+        <label>
+          Name:
+          <p class="nm"></p>
+        </label>
+        <label>
+          Email
+          <p class="eml"></p>
+        </label>
+        <label class="lst">
+          Topics:
+          <ul></ul>
+        </label>
+        <button class="continue">Continue</button>
+      </form>
+
+      <div class="steps">
+        <p>step <span class="step">3</span> of 3</p>
+        <div class="spns">
+          <div class="spn"></div>
+          <div class="spn"></div>
+          <div class="spn activ"></div>
+        </div>
+      </div>
+    </div>
+    <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
