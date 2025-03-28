@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">{multisteps-form} | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/multi-step-register-form" target="_blank">Multi-step Register Form</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://ahmed-rbr.github.io/multistep-register-/}">
+    <a href="{https://github.com/Ahmed-rbr}">
       Demo
     </a>
     <span> | </span>
